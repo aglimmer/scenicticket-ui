@@ -1,0 +1,32 @@
+// scss支持的import命令与css中import命令的区别：
+// css使用import，每次都会创建一个额外的请求，
+// scss使用import，会将文件包含在scss中，不需要额外的HTML请求
+// _reboot, _variables等以'_'开头的命名方式，向scss指明不要将其编译到css文件
+// 但是在使用导入语句的时候不需要使用下划线
+
+// config
+// scss模块化的支持，scss文件不能编译成css，只能当做模块导入，不能单独使用
+// 所有的样式文件组合成一个单独的样式文件
+
+//使用注意：
+//1.当前文件全名：/src/component/syles/index.scss
+//在组件中 /src/component/buttons/Button.tsx
+//就可以这样引入当前文件index.scss：
+//import "../styles/index.scss"
+
+//2.当前文件所在目录/src/component/syles/，同级文件名如下：
+// index.scss
+// _mixin.scss
+// _reboot.scss
+// _variables.scss
+
+//3.导入文件： /src/component/syles/_variables.scss方式为：
+@import "variables";
+
+@import "reboot";
+
+@import "mixin";
+
+
+//4.导入其他路径文件：/src/component/buttons/_style.scss
+@import "../buttons/style"

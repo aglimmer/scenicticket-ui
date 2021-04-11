@@ -1,0 +1,6 @@
+img.top{
+    width:100%;
+    height:32px;
+    overflow: hidden;
+    background-repeat: repeat-x;
+}

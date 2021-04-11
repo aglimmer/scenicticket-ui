@@ -1,0 +1,106 @@
+.content{
+    width:996px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: #e0e0e0; */
+    /* background-color:white; */
+    /* padding:1.2em 1.2em; */
+}
+div.nav{
+    height:32px;
+    padding:0;
+    background-color: #E9ECEF;
+    /* margin-bottom: 1em; */
+    /* #E9ECEF */
+}
+.main{
+    /* margin-left:125px; */
+    width:996px;
+    margin: 0 auto;
+    /* background-color: #E9ECEF; */
+    /* background-color: azure; */
+}
+
+.list-item{
+    text-decoration: none;
+    display: line-block;
+    height: 32px;
+    margin:0 2px;
+    line-height: 32px;
+}
+.list-item:hover{
+    background-color:#0089D2;
+    color:white;
+}
+/* .list-item:visited{
+    color:red;
+} */
+ul{
+    list-style-type: circle; 
+    list-style: none;   
+    /* padding: 0;       */
+    margin: 0;
+}
+ul>li{
+    height:48px;
+    line-height: 48px;
+    text-align: left;
+}
+img.img_profile{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+}
+label{
+    display: inline-block;
+    background-color: white;
+    font-weight:thin;
+    color: grey;
+    font-size:1.2em;
+    width:200px;
+}
+
+.action_btn {
+	min-width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #0089D2;
+	text-align: center;
+	color: #FFF;
+	border-radius: 4px;
+	border: none;
+	margin-left: 10px;
+	cursor: pointer;
+}
+/*激活样式*/
+.action_btn:active {
+    background-color: #0066CC;
+}
+
+
+
+.input_read {
+    width: 150px;
+    font-family: Verdana, Arial;
+    border: 0; 
+    outline: none;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.input_edit{
+    width: 150px;
+}
+.activeLink{
+    color: red;
+    pointer-events: none;
+    filter: alpha(opacity=50); /*IE滤镜，透明度50%*/
+    -moz-opacity: 0.5; /*Firefox私有，透明度50%*/
+    opacity: 0.5; /*其他，透明度50%*/
+}
+/* 
+消息提示框位置居中,文字居中，默认不显示，有背景色
+*/
+
+
+

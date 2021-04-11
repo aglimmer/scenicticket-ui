@@ -1,0 +1,62 @@
+/* 整个弹窗大小 */
+.pop_confirm{
+    width:240px;
+    height:80px;
+    position: absolute;
+	display: block;
+    z-index: 100;
+	left: 50%;
+	top: 50%;
+	margin-left: -120px;
+    margin-top: -40px;
+    padding:1px 1px;
+    background-color: #D3D3D3;
+}
+/* 弹窗内部标题 */
+.tip_title{
+    display: block;
+    height: 30px;
+    width:240px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+/* 确认按钮样式 */
+.action_ack_btn {
+	width: 80px;
+	height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin-left:26px;
+    /* outline:none; */
+    /* box-shadow:none; */
+	background-color: #0089D2;
+	text-align: center;
+	color: white;
+	border-radius: 4px;
+	border: #0089D2;
+	cursor: pointer;
+}
+/*确认按钮，激活样式*/
+.action_ack_btn:active {
+    background-color: #0066CC;
+}
+/* 取消按钮样式 */
+.action_cancel_btn{
+    margin-left:26px;
+    width: 80px;
+	height: 30px;
+    line-height: 30px;
+    display: inline-block;
+	background-color: #C1CDC1;
+	text-align: center;
+	color: 	#FFFAFA;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}
+/* 取消按钮激活样式 */
+.action_cancel_btn:active{
+    background:	grey
+}
+
